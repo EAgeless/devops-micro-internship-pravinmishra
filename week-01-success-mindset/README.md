@@ -391,7 +391,7 @@ I’m excited for the weeks ahead, and I’m committed to showing up with a stro
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: [**ADD LINK HERE**](https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-cloudcomputing-mindsetshift-activity-7477974647091736576-Z07X?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E&utm_campaign=whatsapp)  
+- LinkedIn Post URL: [https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-cloudcomputing-mindsetshift-activity-7477974647091736576-Z07X?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E&utm_campaign=whatsapp]  
 - Blog / Medium : (https://medium.com/@engineerageless/week-one-of-my-devops-micro-internship-e391a935e2fd?sharedUserId=engineerageless) 
 
 ---
