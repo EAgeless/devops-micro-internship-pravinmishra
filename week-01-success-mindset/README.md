@@ -31,10 +31,9 @@ You will reuse this in later weeks. So do it properly once.
 
 **Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
 
-## Answer
+## Answer 
 
-Add your answer here...
-
+What I believe to be true is that the race is not always to the swift, it's not usually the one who runs fast that usually finishes the race. People can be fast and it feels like they are getting it all done and things are speedily working for them, most atimes, it's not a guarantee that they get to the finish. I have seen it play out so well and I know this to be true. I have had this conversation with a few friends and they don't share this view but I know this to be true..
 ---
 
 # Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
@@ -55,23 +54,24 @@ Write each truth in this format:
 
 ### Truth
 
-Add your answer here...
+Discipline works better than motivation.
+
 
 ### Evidence from my life
 
-Add your answer here...
-
+I discovered that I make more progress when I stick to a routine than when I depend on how I feel. Motivation comes and goes, but discipline keeps me moving even on low-energy days. Every time I stayed consistent, I got better results.
 ---
 
 ## Truth #2
 
 ### Truth
 
-Add your answer here...
+Small actions create bigger results over time.
+
 
 ### Evidence from my life
 
-Add your answer here...
+Through my years of practice and observation, I realized that small daily efforts add up. A little learning, a little improvement, and a little repetition may look slow at first,just like it did for me, I felt like I was stuck but the results become visible after some time, because I was always showing up, people began to refer me, give me opportunities I use to beg for. Progress is often built quietly.
 
 ---
 
@@ -79,11 +79,11 @@ Add your answer here...
 
 ### Truth
 
-Add your answer here...
+God is God irrespective of my circumstances
 
 ### Evidence from my life
 
-Add your answer here...
+I was recently faced with the most difficult part of my life - losing my dad. I have had question in my mind as to why this happened, but I have also come to the conclusion that God is God, my circumstances doesn't change who He is. yes He loves me and wants the best for me, but He has also put systems in place in this earth that runs irrespective of him and any outcome I get is man-made.
 
 ---
 
@@ -135,11 +135,20 @@ Include this line:
 
 ## Your Article
 
-Add your answer here...
+Three to seven years from now, Evangeline Obeta had become a recognized DevOps and Cloud Engineer in Nigeria and Canada known for blending technical excellence with calm leadership and thoughtful communication. What began as a steady commitment to learning had grown into a visible body of work that showed discipline, consistency, and real impact. She had built hands-on infrastructure projects, shipped automation workflows, and contributed to collaborative systems that solved real operational problems.
+
+By that time, she had already published multiple technical blog posts and created a portfolio that reflected her growth in Kubernetes, Docker, AWS, Linux, Git, Nginx, and infrastructure automation. Her GitHub profile had become a living archive of her progress, with clean repositories, documented labs, and project-based proof of her skills. She had earned relevant certifications, strengthened her cloud and DevOps foundation, and used every assignment, lab, and challenge as a way to sharpen her edge.
+
+Her work had gone beyond technical execution. She had led teams, supported projects with structure and clarity, and contributed meaningfully to communities where beginners needed guidance and encouragement. She had become the kind of professional who could take a vague problem, break it down, and bring order to it without losing the human side of the work. Her communication style remained warm, but her standards stayed high.
+She had also grown into a stronger personal brand. Through LinkedIn posts, portfolio updates, and reflective writing, she had built a reputation for being both technically sound and emotionally intelligent. She had also completed her book. People trusted her because she shared not just what she learned, but how she learned it.
+
+More importantly, her 2.0 version had become evidence that resilience was not just a personality trait but a strategy. She had kept showing up through grief, pressure, and uncertainty. She had relocated and her focus has shifted from survival to building, from learning alone to contributing, and from quiet potential to visible proof. Her story had become one of purpose, skill, and steady elevation.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community ( https://discord.pravinmishra.com/ )
 
 ### Public Link
 
-Paste your link here:
+(https://medium.com/@engineerageless/what-my-version-2-0-looks-like-9a03457576c8)
 
 `__________________________`
 
@@ -173,7 +182,7 @@ If Yes:
 
 ## Answer
 
-Add your answer here...
+Yes, but not necessarily cutting corners, but I have gone back on my word, what I said I will not do again, I did it and I felt really ashamed of myself and regreted it for a while, but I got over it and picked up myself and promised myself never to repeat.
 
 ---
 
@@ -199,16 +208,16 @@ Choose books that improve:
 
 ## Book List
 
-1. Add your answer here...
-2. Add your answer here...
-3. Add your answer here...
-4. Add your answer here...
-5. Add your answer here...
-6. Add your answer here...
-7. Add your answer here...
-8. Add your answer here...
-9. Add your answer here...
-10. Add your answer here...
+1. The Psychology of Money — Morgan Housel
+2. The E-Myth Revisited — Michael E. Gerber
+3. The 5 AM Club — Robin Sharma
+4. Think Like a Man, Act Like a Woman — Steve Harvey
+5. The Truth About Rapture — Dr. Abel Damina
+6. Atomic Habits — James Clear
+7. Deep Work — Cal Newport
+8. Rich Dad Poor Dad — Robert T. Kiyosaki
+9. The 7 Habits of Highly Effective People — Stephen R. Covey
+10. How to Win Friends and Influence People — Dale Carnegie
 
 ---
 
@@ -237,16 +246,19 @@ List topics only. No need to share numbers.
 
 ## My Metrics
 
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
-* Add your answer here...
+Learning hours per week
+Skills mastered
+Projects shipped or completed
+GitHub commits or portfolio updates
+Blog posts or LinkedIn posts published
+Deep work sessions per week
+Time spent on family and motherhood
+Sleep hours
+Books read
+Workouts session
+Spending tracker
+Savings or investment contributions
+Income tracked from business
 
 ---
 
@@ -270,9 +282,9 @@ Examples:
 
 **Yes / No**
 
-Answer:
+Answer: Yes I did
 
-Add your answer here...
+I did a full brain dump of what is in my mind and what I feel. This has helped clear my mind.
 
 ---
 
@@ -290,7 +302,16 @@ Example:
 
 #### My Weekly Routine
 
-Add your answer here...
+My Weekly Routine
+Monday to Thursday: 2 hour of deep work on DMI 2 hour on career tasks.
+
+Friday: catch up on unfinished tasks, notes, or learning review and submit my assignment.
+
+Saturday: DMI session, project practice.
+
+Sunday: weekly review, and personal rest.
+
+Daily: short check-in on priorities, family responsibilities, and personal wellbeing.
 
 ---
 
@@ -298,11 +319,13 @@ Add your answer here...
 
 #### When Will You Do DMI Work? (Days + Time)
 
-Add your answer here...
+Monday to Thursday, 5:00 PM to 8:00 PM.
+
+Saturday, 5:00 AM to 2:00 PM.
 
 #### How Many Sessions Per Week?
 
-Add your answer here...
+5 sessions per week
 
 ---
 
@@ -316,7 +339,15 @@ Examples:
 
 #### My Distraction Rules
 
-Add your answer here...
+Phone stays on silent or out of reach during focus time.
+
+Social media is checked only after work blocks are done.
+
+I work in a quiet space with only what I need open.
+
+No multitasking during deep work sessions.
+
+I protect my time by planning ahead so family, work, and learning do not clash.
 
 ---
 
@@ -324,28 +355,44 @@ Add your answer here...
 
 ### Biggest insight I got about myself this week
 
-Add your answer here...
+I am committed when I put my mind to it
 
 ### My biggest weakness/loop I noticed
 
-Add your answer here...
+I haven't noticed any loop, I am pumped up and ready to crush.
 
 ### One system I will implement from this week (exact habit + time)
 
-Add your answer here...
+Take my 2 hours deep session seriously
+Sleep well, because if I am sleep-starved, I won't function well
+Do my workout as planned because that's what keeps me balanced
 
 ### LinkedIn Post
 
 Paste your LinkedIn post link here:
 
-`__________________________`
+Week 1 of my DevOps Micro Internship has been less about rushing into tools and more about upgrading my mindset.
+
+This week reminded me that growth is not only about what you learn, but also about how you think, how you respond to pressure, and how you keep showing up when things feel uncomfortable.
+
+One thing I’m taking seriously from here is consistency. I’m learning to build a system that helps me stay ahead, even on days when motivation is low. That means documenting my progress, reviewing my notes, staying disciplined with my time, and treating every task like proof of growth.
+
+I also realized that success in this journey will not come from trying to do everything at once. It will come from staying focused, protecting my energy, asking better questions, and refusing to give up when things get difficult. I’m choosing to keep building quietly, steadily, and intentionally.
+
+This first week has already stretched me in the right ways, and I’m grateful for the structure and vision behind this internship.
+
+A big thank you to Pravin Mishra for convening this internship and creating a space where learning is practical, purposeful, and growth-driven. Your leadership is helping many of us think bigger and build better.
+
+I’m excited for the weeks ahead, and I’m committed to showing up with a stronger mindset, a clearer system, and a heart that refuses to quit.
+
+#DevOps #CloudComputing #MindsetShift #Consistency #LearningInPublic #CareerGrowth #InternshipJourney #Version20
 
 ---
 
 ## 10. Proof of Work
 
-- LinkedIn Post URL: **ADD LINK HERE**  
-- Blog / Medium : **ADD LINK HERE**  
+- LinkedIn Post URL: [**ADD LINK HERE**](https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-cloudcomputing-mindsetshift-activity-7477974647091736576-Z07X?utm_source=social_share_send&utm_medium=android_app&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E&utm_campaign=whatsapp)  
+- Blog / Medium : (https://medium.com/@engineerageless/week-one-of-my-devops-micro-internship-e391a935e2fd?sharedUserId=engineerageless) 
 
 ---
 
