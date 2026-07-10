@@ -20,7 +20,7 @@ Generate a GitHub Personal Access Token (PAT) that will be used for MCP authenti
 
 #### Screenshot 1 — GitHub token creation page showing the selected scopes (`repo`, `read:user`) — token value must NOT be visible
 
-Add your screenshot here.
+![GitHub token creation page showing the selected scopes](screenshots/Ass-05-scrn-1.PNG)
 
 ---
 
@@ -34,7 +34,7 @@ Create and configure the `.mcp.json` file to define the GitHub MCP server.
 
 #### Screenshot 2 — `.mcp.json` open in VS Code showing the full configuration
 
-Add your screenshot here.
+![`.mcp.json` open in VS Code](screenshots/Ass-05-scrn-2.PNG)
 
 ---
 
@@ -48,7 +48,7 @@ Store your GitHub token securely in `.claude/settings.local.json` and ensure it 
 
 #### Screenshot 3 — `settings.local.json` open in VS Code showing the `env` section — **blur or cover the actual GitHub token value**
 
-Add your screenshot here.
+![`settings.local.json` open in VS Code](screenshots/Ass-05-scrn-3.PNG)
 
 ---
 
@@ -62,7 +62,7 @@ Confirm that the GitHub MCP server is successfully connected inside Claude Code.
 
 #### Screenshot 4 — `/mcp` output showing `github: connected`
 
-Add your screenshot here.
+![`/mcp` output showing `github: connected`](screenshots/Ass-05-scrn-4.PNG)
 
 ---
 
@@ -76,7 +76,7 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 #### Screenshot 5 — Claude's response showing the GitHub MCP tool call and the retrieved README.md content.
 
-Add your screenshot here.
+![Claude's response showing the GitHub MCP tool](screenshots/Ass-05-scrn-5.PNG)
 
 ---
 
@@ -92,7 +92,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+(https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
 `__________________________`
 

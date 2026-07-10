@@ -46,13 +46,13 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+![Blog Published post](screenshots/Ass-07-Blog-post.PNG)
 
 ---
 
 ### Submission Field
 
-Blog Link:
+https://medium.com/@engineerageless/reflection-week-2-by-evangeline-obeta-090af287a4e3?sharedUserId=engineerageless
 
 `__________________________________________`
 
@@ -92,7 +92,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
+![LinkedIn post](screenshots/Ass-07-linkedin-post.PNG)
 
 ---
 
@@ -101,7 +101,38 @@ Add your screenshot here.
 LinkedIn Post Content (copy-paste here):
 
 ```
-Paste your LinkedIn post content here
+Week 2 Lesson: Terminals may fail, but your inner strength shouldn't. 💪
+
+This week taught me something beyond just DevOps.
+
+I spent hours wrestling with:
+❌ Hook script errors that made no sense
+❌ Terraform destroy commands that wouldn't block
+❌ Missing files that broke everything
+❌ AWS credentials that just wouldn't cooperate
+
+My terminal failed. Multiple times. And honestly? I wanted to give up.
+But here's what I learned:
+
+1. When errors pile up, STOP.
+Brain fog is real. I kept pushing through errors, making things worse. The best thing I did? Shut down my laptop. Took a walk. Talked to a friend. Came back the next day and pieced everything together in 15 minutes.
+
+2. Your inner strength > any terminal error.
+The terminal will fail (and it will fail often). But your resilience? That's what carries you through. Every error is just a stepping stone to understanding.
+
+3. Community matters.
+Whether it's Discord, LinkedIn, or a friend — sometimes you just need to talk it out. The solution becomes clear when you step away from the screen.
+
+What I actually built this week:
+AI-powered DevOps agent with Claude Code
+Custom hooks for security and logging
+Terraform infrastructure automation
+An agent that remembers decisions across sessions
+The errors frustrated me. The learning? Priceless.
+
+P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by Pravin Mishra. You can start your DevOps journey by joining this Discord community (https://lnkd.in/eS7E-C84).
+
+#DMIByPravinMishra #AgenticAI #ClaudeCode #DevOps #LearningInPublic #DevOpsJourney #AIinDevOps #NeverGiveUp
 ```
 
 ---
@@ -109,7 +140,7 @@ Paste your LinkedIn post content here
 ### LinkedIn Post Link:
 
 `__________________________________________`
-
+https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agenticai-claudecode-ugcPost-7481468263600869377-2TVw/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 ---
 
 # Submission Instructions

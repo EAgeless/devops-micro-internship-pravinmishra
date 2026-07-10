@@ -96,7 +96,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 ## GitHub Repository URL
 
-(https://github.com/EAgeless/devops-micro-internship-pravinmishra.git)
+(https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
 `__________________________`
 
