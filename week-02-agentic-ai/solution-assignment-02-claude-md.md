@@ -20,7 +20,7 @@ Capture Claude’s response before `CLAUDE.md` exists in the project to establis
 
 #### Screenshot 1 — Claude’s generic response before CLAUDE.md exists (project contains only `index.html`, `style.css`, `images/`, `README.MD`, `privacy.html`, `terms.html`)
 
-Add your screenshot here.
+![Claude’s generic response before CLAUDE.md exists](screenshots/Ass-2-screenshot-1.PNG)
 
 ---
 
@@ -34,7 +34,7 @@ Generate an initial `CLAUDE.md` file using the `/init` command and review the au
 
 #### Screenshot 2 — The auto-generated CLAUDE.md open in VS Code showing its content
 
-Add your screenshot here.
+![The auto-generated CLAUDE.md open in VS Code](screenshots/Ass-02-scrn-2.PNG)
 
 ---
 
@@ -48,7 +48,7 @@ Update the generated `CLAUDE.md` file by adding project-specific instructions ac
 
 #### Screenshot 3 — Your customized CLAUDE.md in VS Code showing all 5 sections (scroll to show the full file)
 
-Add your screenshot here.
+![Your customized CLAUDE.md in VS Code showing all 5 sections](screenshots/Ass-2-scrn-3.PNG)
 
 ---
 
@@ -62,13 +62,13 @@ Verify that Claude’s behavior changes after adding `CLAUDE.md` by running a ne
 
 #### Screenshot 4 — Claude's specific, detailed answer after reading CLAUDE.md (Claude mentioning S3, CloudFront and Terraform)
 
-Add your screenshot here.
+![Claude's specific, detailed answer after reading CLAUDE.md](screenshots/Ass-2-scrn-4.PNG)
 
 ---
 
 #### Screenshot 5 — Claude refusing or warning against adding React because of the "No JavaScript" convention defined in CLAUDE.md
 
-Add your screenshot here.
+![Claude refusing or warning against adding React](screenshots/Ass-02-scrn-5.PNG)
 
 ---
 
@@ -82,7 +82,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 #### Screenshot 6 — `CLAUDE.md` visible in your GitHub repository after pushing the commit
 
-Add your screenshot here.
+![`CLAUDE.md` visible in your GitHub repository](screenshots/Ass-2-Scrn-6.PNG)
 
 ---
 
@@ -96,7 +96,7 @@ Add your screenshot here.
 
 ## GitHub Repository URL
 
-Paste your forked repository URL here:
+(https://github.com/EAgeless/devops-micro-internship-pravinmishra.git)
 
 `__________________________`
 
