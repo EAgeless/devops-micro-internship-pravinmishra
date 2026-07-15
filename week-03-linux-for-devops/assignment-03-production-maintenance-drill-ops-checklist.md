@@ -20,25 +20,25 @@ Verify that the deployed React application is reachable from the browser and con
 
 #### Screenshot 1 — Browser showing the React app with your Full Name visible on the UI
 
-Add your screenshot here.
+![Browser showing the React app](screenshots/Wk-3-Ass-3-scrn-1.png)
 
 ---
 
 #### Screenshot 2 — Output of `ip a`
 
-Add your screenshot here.
+![Output of `ip a`](screenshots/Wk-3-Ass-3-scrn-2.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -tulpen`
 
-Add your screenshot here.
+![Output of `sudo ss -tulpen`](screenshots/Wk-3-Ass-3-scrn-3.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo ufw status`
 
-Add your screenshot here.
+![Output of `sudo ufw status`](screenshots/Wk-3-Ass-3-scrn-4.png)
 
 ---
 
@@ -48,19 +48,19 @@ Answer the following in your own words:
 
 **1. What proves Nginx is listening on 0.0.0.0:80?**
 
-Write your answer here.
+The ss -tulpen output shows nginx on 0.0.0.0:80, which means it is listening on all network interfaces and not just locally.
 
 ---
 
 **2. What proves SSH is active on port 22?**
 
-Write your answer here.
+The same output shows sshd on 0.0.0.0:22, which confirms SSH is running and ready for remote login.
 
 ---
 
 **3. Did you find any unexpected open ports? Explain briefly.**
 
-Write your answer here.
+No, I did not find any unexpected open ports. Only port 80 for Nginx and port 22 for SSH were open externally; the other services were bound to localhost only
 
 ---
 
@@ -74,19 +74,19 @@ Verify that Nginx is properly installed, running, enabled at boot, and safely co
 
 #### Screenshot 1 — Output of `systemctl status nginx --no-pager`
 
-Add your screenshot here.
+![Output of `systemctl status nginx --no-pager`](screenshots/Wk-3-Ass-3-scrn-5.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t`
 
-Add your screenshot here.
+![Output of `sudo nginx -t`](screenshots/Wk-3-Ass-3-scrn-6.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo ss -lptn '( sport = :80 )'`
 
-Add your screenshot here.
+![Output of `sudo ss -lptn](screenshots/Wk-3-Ass-3-scrn-7.png)
 
 ---
 
@@ -96,13 +96,13 @@ Answer the following in your own words:
 
 **1. What happens if Nginx fails to restart in production?**
 
-Write your answer here.
+The app can go down and users may not be able to access the website. In a worse case, a bad Nginx config can stop the server from serving traffic completely.
 
 ---
 
 **2. What's your basic rollback plan?**
 
-Write your answer here.
+Keep a backup of the working Nginx config, restore it if the new one fails, then restart Nginx again. If needed, I can also revert the last deployment and copy back the previous working build files.
 
 ---
 
@@ -116,19 +116,19 @@ Verify real traffic flow and analyze logs to understand system behavior and erro
 
 #### Screenshot 1 — Output of `sudo tail -n 30 /var/log/nginx/access.log`
 
-Add your screenshot here.
+![Output of `sudo tail -n 30 /var/log/nginx/access.log`](screenshots/Wk-3-Ass-3-scrn-8.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo tail -n 30 /var/log/nginx/error.log`
 
-Add your screenshot here.
+![Output of `sudo tail -n 30 /var/log/nginx/error.log`](screenshots/Wk-3-Ass-3-scrn-9.png)
 
 ---
 
 #### Screenshot 3 — Output of `sudo journalctl -u nginx --no-pager -n 50`
 
-Add your screenshot here.
+![Output of `sudo journalctl -u nginx --no-pager -n 50`](screenshots/Wk-3-Ass-3-scrn-10.png)
 
 ---
 
@@ -141,19 +141,19 @@ Answer the following in your own words:
 - If yes, mention 1–2 example error lines from the logs and explain what each one means in simple terms.
 - If no, explain what it means if the error log is empty or shows no recent errors during your check.
 
-Write your answer here.
+No, I did not see any real errors in the error log. The only line shown was a notice saying Nginx was using inherited sockets, which is normal and not a failure.
 
 ---
 
 **2. If there were no errors, what does that indicate about the system?**
 
-Write your answer here.
+It means Nginx did not record any recent problems during the time I checked. That does not mean the system is perfect forever, only that it was healthy in that moment.
 
 ---
 
 **3. Based on the access logs, were your curl requests visible in the log entries? What does that prove about traffic flow?**
 
-Write your answer here.
+Yes, the curl requests were visible in the access log. That proves the requests reached Nginx successfully and Nginx handled the traffic.
 
 ---
 
@@ -167,25 +167,25 @@ Assess server capacity and detect potential performance or failure risks.
 
 #### Screenshot 1 — Output of `uptime`
 
-Add your screenshot here.
+![Output of `uptime`](screenshots/Wk-3-Ass-3-scrn-11.png)
 
 ---
 
 #### Screenshot 2 — Output of `free -h`
 
-Add your screenshot here.
+![Output of `free -h`](screenshots/Wk-3-Ass-3-scrn-12.png)
 
 ---
 
 #### Screenshot 3 — Output of `df -h`
 
-Add your screenshot here.
+![Output of `df -h`](screenshots/Wk-3-Ass-3-scrn-13.png)
 
 ---
 
 #### Screenshot 4 — Output of `sudo du -sh /var/* | sort -h`
 
-Add your screenshot here.
+![Output of `sudo du -sh /var/* | sort -h`](screenshots/Wk-3-Ass-3-scrn-14.png)
 
 ---
 
@@ -195,13 +195,12 @@ Answer the following in your own words:
 
 **1. Which resource looks most critical right now? (CPU/load, memory, or disk) Explain why.**
 
-Write your answer here.
-
+From my outputs, memory is the most critical resource right now because it is more limited than CPU load and disk usage. 
 ---
 
 **2. What happens if disk becomes 100% full in a production server?**
 
-Write your answer here.
+If disk reaches 100% full on a production server, the system can stop writing logs, applications may fail to save data, and the server can become unstable or even unresponsive. That is why disk space must always be watched closely, even if it is not the biggest problem in your current output.
 
 ---
 
@@ -215,19 +214,19 @@ Ensure the correct React build is deployed and Nginx is serving it properly.
 
 #### Screenshot 1 — Output of `ls -lah /var/www/html | head -n 20`
 
-Add your screenshot here.
+![Output of `ls -lah /var/www/html | head -n 20`](screenshots/Wk-3-Ass-3-scrn-15.png)
 
 ---
 
 #### Screenshot 2 — Output of `grep -R "Deployed by" -n /var/www/html 2>/dev/null | head`
 
-Add your screenshot here.
+![Output of `grep -R "Deployed by"](screenshots/Wk-3-Ass-3-scrn-16.png)
 
 ---
 
 #### Screenshot 3 — Output of `grep -n "try_files" /etc/nginx/sites-available/default`
 
-Add your screenshot here.
+![Output of `grep -n "try_files"](screenshots/Wk-3-Ass-3-scrn-17.png)
 
 ---
 
@@ -237,7 +236,7 @@ Answer the following in your own words:
 
 **1. How do you confirm that the correct version of the application is deployed?**
 
-Write your answer here.
+I confirmed it by checking /var/www/html with ls -lah and seeing the React build files like index.html and static. I also searched for “Deployed by” to make sure my personalized change was in the deployed build, and I verified that Nginx was using the right web root and SPA routing rule with try_files $uri /index.html;. Finally, I opened the app in the browser to confirm it loaded correctly.
 
 ---
 
@@ -251,19 +250,19 @@ Simulate a real-world Nginx misconfiguration and recover the service safely.
 
 #### Screenshot 1 — Output of `sudo nginx -t` showing the syntax error (broken config)
 
-Add your screenshot here.
+![Output of `sudo nginx -t` showing the syntax error](screenshots/Wk-3-Ass-3-scrn-18.png)
 
 ---
 
 #### Screenshot 2 — Output of `sudo nginx -t` showing syntax ok (fixed config)
 
-Add your screenshot here.
+![Output of `sudo nginx -t` showing syntax ok](screenshots/Wk-3-Ass-3-scrn-19.png)
 
 ---
 
 #### Screenshot 3 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Output of `curl -I http://<public-ip>` confirming recovery (200 OK)](screenshots/Wk-3-Ass-3-scrn-20.png)
 
 ---
 
@@ -273,19 +272,19 @@ Answer the following in your own words:
 
 **1. What caused the configuration failure?**
 
-Write your answer here.
+The failure was caused by a syntax mistake in the Nginx config — the try_files line had a missing semicolon, so Nginx could not parse the file correctly
 
 ---
 
 **2. How did you fix the issue?**
 
-Write your answer here.
+I opened the Nginx config again, added the missing semicolon back to try_files $uri /index.html;, then ran nginx -t and restarted the service. After that, the config test passed and the app returned 200 OK.
 
 ---
 
 **3. How can you avoid this kind of issue in real production systems?**
 
-Write your answer here.
+I can avoid this by testing Nginx config with nginx -t before every restart, keeping a backup of the working config, and making small changes one at a time so mistakes are easier to catch.
 
 ---
 
@@ -299,13 +298,13 @@ Simulate missing deployment content and recover the application safely.
 
 #### Screenshot 1 — Output of `curl -I http://<public-ip>` showing failure (non-200 response)
 
-Add your screenshot here.
+![Output of `curl -I http://<public-ip>` showing failure](screenshots/Wk-3-Ass-3-scrn-21.png)
 
 ---
 
 #### Screenshot 2 — Output of `curl -I http://<public-ip>` confirming recovery (200 OK)
 
-Add your screenshot here.
+![Output of `curl -I http://<public-ip>` confirming recovery](screenshots/Wk-3-Ass-3-scrn-22.png)
 
 ---
 
@@ -315,19 +314,19 @@ Answer the following in your own words:
 
 **1. What caused the application to break in this scenario?**
 
-Write your answer here
+What broke was the web content directory: I moved /var/www/html away, then created an empty /var/www/html, so Nginx had no proper app files to serve. That is why the request failed with a 500 Internal Server Error.
 
 ---
 
 **2. How did you fix the issue and restore the application?**
 
-Write your answer here.
+I fixed it by removing the empty folder, restoring /var/www/html from /var/www/html_backup, restarting Nginx, and then checking the app again with curl -I. After that, it returned 200 OK, which shows the site was working again.
 
 ---
 
 **3. What steps would you take to prevent this kind of issue in real production systems?**
 
-Write your answer here.
+To avoid this in production, I would keep backups, deploy changes in a safe way, and always verify the app immediately after any file move or restore. I would also avoid deleting the live web root unless I had a tested rollback plan.
 
 ---
 
@@ -343,31 +342,31 @@ Answer the following in your own words:
 
 **1. Why is SSH key-based authentication more secure than sharing passwords?**
 
-Write your answer here.
+SSH keys use a private/public key pair so I never send a password over the network; only a cryptographic proof is exchanged. That means no password to guess, no brute-force or credential stuffing, and attackers can’t steal a typed password during transit. Private keys stay on my machine (protected by file permissions and optionally a passphrase), so it’s far harder to compromise than a reused or weak password.
 
 ---
 
 **2. Why should only required ports be open on a production server?**
 
-Write your answer here.
+Every open port is another door into the server. Keeping only needed ports open (e.g., 22 for SSH, 80 for HTTP) reduces the attack surface and lowers the chance of unwanted scanners or automated exploits finding a vulnerable service.
 
 ---
 
 **3. Why is it important for Nginx to be enabled on boot?**
 
-Write your answer here.
+If Nginx is enabled on boot the web service comes up automatically after reboots or maintenance, so users don’t see downtime just because the VM restarted. It keeps availability predictable and reduces manual recovery work after updates or unexpected reboots.
 
 ---
 
 **4. What are the risks of sharing secrets, keys, or credentials publicly?**
 
-Write your answer here.
+Public secrets = instant compromise. Anyone with a key or token can access servers or cloud accounts, deploy malicious code, read private data, or incur costs. Secrets leaked in public repos are commonly scanned and abused within minutes, so they must never be committed or shared.
 
 ---
 
 **5. Why should cloud resources be stopped or terminated when they are no longer needed?**
 
-Write your answer here.
+Unused cloud resources keep charging money and increase attack surface. Stopping or terminating them saves cost and reduces the number of live targets that need patching or monitoring. It’s also good hygiene for access control and compliance.
 
 ---
 
@@ -377,7 +376,7 @@ Write your answer here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+(https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-linux-aws-ugcPost-7482984291874934784-WXdF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E)
 
 `__________________________`
 
@@ -385,7 +384,7 @@ Paste your LinkedIn post URL here:
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+![Published LinkedIn post](screenshots/Wk-3-Ass-3-LinkedInPost.png)
 
 ---
 
