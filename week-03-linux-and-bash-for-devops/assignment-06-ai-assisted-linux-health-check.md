@@ -477,7 +477,6 @@ Gather was the Bash report, Analyze was Claude’s explanation, Human Act was my
 
 #### Screenshot — Published LinkedIn post
 
-![Published Linkedin Post](Screenshots/Wk-3-Ass-6-LinkedInPost.png)
 
 ---
 
