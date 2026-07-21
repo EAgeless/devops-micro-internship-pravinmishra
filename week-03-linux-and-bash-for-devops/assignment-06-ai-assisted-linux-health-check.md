@@ -482,7 +482,7 @@ Gather was the Bash report, Analyze was Claude’s explanation, Human Act was my
 
 # GitHub Repository URL
 
-Paste the URL of your GitHub folder or repository containing the assignment files here:
+https://github.com/EAgeless/devops-micro-internship-pravinmishra.git
 
 `__________________________`
 
