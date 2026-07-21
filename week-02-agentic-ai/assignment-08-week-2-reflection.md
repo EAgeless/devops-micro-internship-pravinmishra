@@ -54,7 +54,7 @@ You can publish your blog on:
 
 https://medium.com/@engineerageless/reflection-week-2-by-evangeline-obeta-090af287a4e3?sharedUserId=engineerageless
 
-`__________________________________________`
+`Add your URL here`
 
 ---
 
@@ -78,7 +78,7 @@ Your post must include:
 
 ### Required P.S. Line (Must Include Exactly)
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining [DMI waiting list](https://forms.gle/3hvrWJBDzsDeJoPs6) (https://forms.gle/3hvrWJBDzsDeJoPs6).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 ---
 
@@ -139,8 +139,13 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 ### LinkedIn Post Link:
 
+<<<<<<< HEAD
 `__________________________________________`
 https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agenticai-claudecode-ugcPost-7481468263600869377-2TVw/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
+=======
+`Add your URL here`
+
+>>>>>>> upstream/main
 ---
 
 # Submission Instructions

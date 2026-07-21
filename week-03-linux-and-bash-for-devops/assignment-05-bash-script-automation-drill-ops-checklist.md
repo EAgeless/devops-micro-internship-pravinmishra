@@ -414,7 +414,7 @@ The final script combines all of them by storing values in variables, using arra
 
 https://www.linkedin.com/posts/evangeline-obeta-067089193_bashscripting-linux-devops-ugcPost-7483842925081178112-Z_3Z/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`__________________________`
+`Add your URL here`
 
 ---
 

@@ -378,7 +378,7 @@ Unused cloud resources keep charging money and increase attack surface. Stopping
 
 (https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-linux-aws-ugcPost-7482984291874934784-WXdF/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E)
 
-`__________________________`
+`Add your URL here`
 
 ---
 

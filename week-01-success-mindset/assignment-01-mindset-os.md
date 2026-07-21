@@ -131,7 +131,7 @@ Write as if a journalist is writing about you **3 to 7 years from now** (not 20 
 
 Include this line:
 
-> **P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). You can start your DevOps journey by joining this [Discord community](https://discord.pravinmishra.com/) ( https://discord.pravinmishra.com/ ).**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
 
 ## Your Article
 
@@ -150,7 +150,7 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 
 (https://medium.com/@engineerageless/what-my-version-2-0-looks-like-9a03457576c8)
 
-`__________________________`
+`Add your URL here`
 
 ---
 
@@ -371,6 +371,7 @@ Do my workout as planned because that's what keeps me balanced
 
 Paste your LinkedIn post link here:
 
+<<<<<<< HEAD
 Week 1 of my DevOps Micro Internship has been less about rushing into tools and more about upgrading my mindset.
 
 This week reminded me that growth is not only about what you learn, but also about how you think, how you respond to pressure, and how you keep showing up when things feel uncomfortable.
@@ -386,6 +387,9 @@ A big thank you to Pravin Mishra for convening this internship and creating a sp
 I’m excited for the weeks ahead, and I’m committed to showing up with a stronger mindset, a clearer system, and a heart that refuses to quit.
 
 #DevOps #CloudComputing #MindsetShift #Consistency #LearningInPublic #CareerGrowth #InternshipJourney #Version20
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 

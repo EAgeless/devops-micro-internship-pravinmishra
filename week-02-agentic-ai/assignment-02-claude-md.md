@@ -98,7 +98,7 @@ Commit the `CLAUDE.md` file and push it to your GitHub fork so the project instr
 
 (https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
-`__________________________`
+`Add your URL here`
 
 ---
 

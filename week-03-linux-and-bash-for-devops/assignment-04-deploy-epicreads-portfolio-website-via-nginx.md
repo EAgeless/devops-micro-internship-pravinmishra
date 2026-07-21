@@ -120,7 +120,7 @@ Verify the deployed website and Nginx service are healthy.
 
 https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-aws-linux-share-7483195562373197825-dqd1/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`__________________________`
+`Add your URL here`
 
 ---
 

@@ -91,7 +91,7 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agenticai-claudecode-ugcPost-7481460143935905792-shu_/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`__________________________`
+`Add your URL here`
 
 ---
 
@@ -99,7 +99,7 @@ https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agen
 
 (https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
-`__________________________`
+`Add your URL here`
 
 ---
 
