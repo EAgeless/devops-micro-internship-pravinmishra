@@ -130,10 +130,10 @@ Week 01 → Success Mindset
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_dmi-dmicohort3-devops-activity-7476610267838255107-vzWb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/devops-internship-6e56fa611d9a |
 | 01 | Success Mindset | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-cloudcomputing-mindsetshift-share-7477974643828625408-UZwh/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/what-my-version-2-0-looks-like-9a03457576c8 |
-| 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
-| 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agenticai-claudecode-activity-7481468265408479232-WTzh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/reflection-week-2-by-evangeline-obeta-090af287a4e3?sharedUserId=engineerageless |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ⏳ ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-bashscripting-linux-share-7485635338632101888-9ICE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-3-done-and-dusted-9e9f062a8e62?sharedUserId=engineerageless |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
 | 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
