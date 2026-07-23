@@ -147,9 +147,8 @@ https://www.linkedin.com/posts/evangeline-obeta-067089193_opensource-github-git-
 
 ## Fork URL
 
-Paste your fork URL here:
+https://github.com/EAgeless/devops-micro-internship-interviews.git
 
-`Add your URL here`
 
 ---
 
