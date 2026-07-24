@@ -25,7 +25,7 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/Wk-0-scrn-1.png)
 
 
 Replace `task-1-chatgpt.png` with your actual screenshot file name.
@@ -34,7 +34,7 @@ Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+I learned that AI is a tool to be used
 
 ---
 
@@ -59,7 +59,7 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+When a user in another country opens EpicReads, the internet uses packet switching to break the website data into small packets and send them across many routes. Each packet carries the server’s IP address, which tells the network where the data should go, even if the server is hosted in Finland. The TCP/IP rules make sure the packets are delivered correctly and reassembled in the right order when they arrive. If the user visits the site in a browser, HTTP/HTTPS handles the request and response between the browser and the web server. So even though the website is physically hosted in Finland, these networking rules let people all over the world access it quickly and reliably.
 
 ---
 
@@ -91,7 +91,7 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/Ageless%20Architecture.drawio)
 
 
 Replace `task-3-diagram.png` with your actual diagram file name.
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML, CSS, JavaScript.
+* React, Angular, or Vue.js.
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* Node.js with Express.
+* Python with Django or Flask.
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySQL.
+* PostgreSQL.
 
 ---
 
@@ -142,7 +142,7 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+Use an A record. DNS is the system that translates a domain name like epicreads.com into the IP address computers need to find the server. Since the site is hosted at an IPv4 address, 52.172.142.222:3000, the A record should point the domain to 52.172.142.222. The :3000 part is a port, so DNS maps the name to the IP, and the web server handles the port separately.
 
 ---
 
@@ -218,7 +218,7 @@ Add the following credit note at the end of your post:
 Paste your LinkedIn post URL here:
 
 ```text
-Add your URL here...
+https://www.linkedin.com/posts/evangeline-obeta-067089193_dmi-dmicohort3-devops-activity-7476610267838255107-vzWb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 ```
 
 ---
@@ -227,7 +227,17 @@ Add your URL here...
 
 Paste the full text of your LinkedIn post here:
 
-Add your post content here...
+I’m excited to share that I have officially started this journey with DMI Cohort 3.
+
+This is the beginning of a 5-month learning experience that I’m truly grateful to be part of. I’m looking forward to building real-world projects, sharpening my DevOps skills, learning with Agentic AI, and growing through the support of mentors and the community.
+
+What excites me most is not just the technical growth, but the discipline, mindset, and consistency this journey will require. I’m expecting to challenge myself, learn from every assignment, present my work publicly, and become more confident in the process.
+
+I know this won’t just be about learning tools, it will be about becoming better, week by week, project by project, and learning how to show up with intention and purpose.
+
+Thank you, Pravin Mishra, for the opportunity and for making this journey possible. I truly appreciate it.
+
+#DMI #DMIcohort3 #DevOps #AgenticAI #LearningJourney #GrowthMindset #Internship #Community #PravinMishra
 
 ---
 
@@ -235,19 +245,19 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+Every part of it
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+Nothing for now
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Doing my assignment
 
 ---
 
