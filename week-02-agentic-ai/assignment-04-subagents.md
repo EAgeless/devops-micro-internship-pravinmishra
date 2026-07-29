@@ -110,7 +110,6 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 (https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
-`Add your URL here`
 
 ---
 

@@ -90,13 +90,10 @@ Initialize Terraform and execute the `/tf-plan` skill to observe plan execution 
 
 (https://github.com/EAgeless/Ultimate-Agentic-DevOps-with-Claude-Code.git)
 
-`Add your URL here`
 
 ## LinkedIn post URL
 
-Paste your forked repository URL here:
 
-`Add your URL here`
 ---
 
 # Completion Checklist

@@ -143,7 +143,6 @@ P.S. This post is a part of DevOps Micro Internship with Agentic AI Cohort-3 by 
 `__________________________________________`
 https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-agenticai-claudecode-ugcPost-7481468263600869377-2TVw/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 =======
-`Add your URL here`
 
 >>>>>>> upstream/main
 ---

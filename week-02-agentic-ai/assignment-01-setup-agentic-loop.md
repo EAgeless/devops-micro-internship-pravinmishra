@@ -77,7 +77,6 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather â
 
 (https://github.com/EAgeless/devops-micro-internship-pravinmishra.git)
 
-`Add your URL here`
 
 ---
 
