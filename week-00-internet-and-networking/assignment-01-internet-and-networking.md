@@ -219,7 +219,7 @@ Paste your LinkedIn post URL here:
 
 ```text
 https://www.linkedin.com/posts/evangeline-obeta-067089193_dmi-dmicohort3-devops-activity-7476610267838255107-vzWb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
-```
+
 
 ---
 

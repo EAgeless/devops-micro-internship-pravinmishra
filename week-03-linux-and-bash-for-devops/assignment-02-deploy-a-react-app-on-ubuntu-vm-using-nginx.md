@@ -142,8 +142,6 @@ Verify the React application is publicly accessible via the server's public IP.
 
 https://www.linkedin.com/posts/evangeline-obeta-067089193_i-deployed-a-react-app-on-an-ubuntu-vm-and-activity-7482678150917955584-mTyN?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`Add your URL here`
-
 ---
 
 #### Screenshot — LinkedIn post showing the deployed application

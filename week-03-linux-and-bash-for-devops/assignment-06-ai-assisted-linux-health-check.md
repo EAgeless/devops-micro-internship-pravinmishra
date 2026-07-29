@@ -471,8 +471,6 @@ Gather was the Bash report, Analyze was Claude’s explanation, Human Act was my
 
 (https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-linux-bash-ugcPost-7484999306278670337-kLcn/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E)
 
-`Add your URL here`
-
 ---
 
 #### Screenshot — Published LinkedIn post
@@ -484,7 +482,6 @@ Gather was the Bash report, Analyze was Claude’s explanation, Human Act was my
 
 https://github.com/EAgeless/devops-micro-internship-pravinmishra.git
 
-`Add your URL here`
 
 ---
 
