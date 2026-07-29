@@ -164,7 +164,6 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-git-aws-share-7485351701928144896--wf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`Add your URL here`
 http://54.89.143.62/
 
 ---

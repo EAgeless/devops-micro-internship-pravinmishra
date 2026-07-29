@@ -82,7 +82,6 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 https://github.com/EAgeless
 
-`Add your URL here`
 
 ---
 
