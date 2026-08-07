@@ -28,7 +28,15 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 Write one line for each role: PO (what you prioritized), SM (how you ensured process), Dev Lead (what you built), DevOps Lead (how you shipped).
 
-Write your answer here.
+I worked in Solo Mode, so I played all four roles:
+
+Product Owner (PO): I prioritized small, high‑impact UI changes that improve clarity and trust first (hero tagline, CTA color, and job card typography) instead of starting with heavier layout work.
+
+Scrum Master (SM): I enforced the 90‑minute time box, kept the Jira board clean (statuses and subtasks updated), and made sure every story had clear acceptance criteria before starting work.
+
+Dev Lead: I implemented the selected UI change on the Gotto Job template (updating the hero tagline text and verifying the design stayed clean on desktop and mobile).
+
+DevOps Lead: I handled Git branching, commits, and the deploy to my EC2 Nginx host, then verified the live URL and attached proof back to Jira.
 
 ---
 
@@ -98,7 +106,14 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+1‑point stories (Hero tagline, CTA color, Posted date text, Footer trust links):
+Small CSS/HTML changes, low risk, minimal testing surface. I estimated 1 point because they can be done quickly within the sprint and have clear acceptance criteria.
+
+2‑point stories (Job card typography, Remote badge, Advanced search labels if you added it):
+Touch more elements, require responsive checks, and can affect multiple pages. I estimated 2 points because they involve more selectors and layout testing but still UI-only.
+
+Debate (even in Solo Mode):
+I briefly considered making the remote badge 3 points because of card variations, but kept it at 2 once I confirmed it was mostly a repeated pattern.
 
 ---
 
@@ -166,7 +181,17 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 ## Goal
 
-Add a retro comment covering what went well, what to improve, one Scrum pillar observed (Transparency, Inspection, or Adaptation), and one Scrum value (Openness, Focus, Commitment, Courage, or Respect).
+What went well:
+Keeping the scope small (one UI story) made it easy to complete planning, implementation, and deployment inside the time box. Jira subtasks plus the burndown made my progress visible even in Solo Mode.
+
+What to improve:
+Next time I’d automate more of the deployment steps (scripted scp + Nginx reload) and schedule short checkpoints during the sprint instead of bunching deployment work toward the end.
+
+Scrum pillar observed: Transparency
+The Jira board, story points, and burndown chart made it clear what was planned, what was in progress, and what was actually done.
+
+Scrum value observed: Focus
+Limiting Sprint 1 to a few small UI stories helped me stay focused on shipping one real, verifiable increment instead of starting too many changes at once.
 
 ### Evidence
 
@@ -186,15 +211,14 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://www.linkedin.com/posts/evangeline-obeta-067089193_as-part-of-my-task-this-week-i-ran-a-focused-share-7491418198509207552-B6ix/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E
 
-`Add your URL here`
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![Published LinkedIn post](screenshots/Wk-05-Ass-4-LinkedInPost.png)
 
 ---
 
