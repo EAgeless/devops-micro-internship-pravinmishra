@@ -136,7 +136,7 @@ Week 01 → Success Mindset
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_dmibypravinmishra-bashscripting-linux-share-7485635338632101888-9ICE/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-3-done-and-dusted-9e9f062a8e62?sharedUserId=engineerageless |
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-git-github-share-7486433961859219456-0Rzd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-4-of-the-devops-micro-internship-stretched-me-in-the-best-way-77e7f9456e01?sharedUserId=engineerageless |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week5strongandbetter-devops-jira-share-7492935760875261952-r6NM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-5-stronger-and-better-cc4a5ab156ca?sharedUserId=engineerageless |
-| 06 | AWS Cloud | 🔄 In Progress | ⏳ Pending | — | — |
+| 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week06wasallaboutaws-aws-devops-share-7494981419924967424-hjpU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-06-was-all-about-aws-719e8ad1df40?sharedUserId=engineerageless |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
