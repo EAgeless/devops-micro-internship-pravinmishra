@@ -16,7 +16,7 @@ In this assignment, you will set up a fully functional Microsoft Azure Free Acco
 
 Complete the Azure Free Account registration process, including Microsoft account sign-in, personal details, identity and phone verification, payment verification, and acceptance of the required terms.
 
-> No screenshot required for this task. Do not capture payment-card details. Completion is verified through Task 2.
+
 
 ---
 
@@ -30,13 +30,13 @@ Confirm successful Azure Portal access and Locate the required services and subs
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![Azure Portal homepage](screenshots/Wk-07-Ass-1-scrn-1.png)
 
 ---
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+!["Subscriptions" section](screenshots/Wk-07-Ass-1-scrn-2.png)
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Azure Virtual Machines, Azure Storage Accounts, and Azure Virtual Networks first because they are the core building blocks for hosting and connecting cloud applications. I also want to use Azure Monitor to track performance, availability, logs, and resource health as I deploy workloads. Starting with these services will help me build on my AWS experience while understanding how Azure approaches compute, storage, networking, and observability.
 
 ---
 
