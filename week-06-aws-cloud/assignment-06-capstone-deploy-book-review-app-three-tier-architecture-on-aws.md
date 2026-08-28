@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![Diagram image](screenshots/Wk-06-Ass-6-Architecture-Design.png)
 
 ---
 
@@ -34,13 +34,20 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+US East (N. Virginia)
 
 ---
 
 **Services:**
 
-Write your answer here.
+Amazon VPC — networking and subnet architecture
+Amazon EC2 — Web Tier and App Tier compute instances
+Application Load Balancer (ALB) — public ALB for the Web Tier and internal ALB for the App Tier
+Amazon RDS for MySQL — Database Tier
+Security Groups — traffic control between the three tiers
+Nginx — Web Tier reverse proxy/web server
+Node.js/Express — App Tier backend
+Next.js — Web Tier frontend
 
 ---
 
@@ -54,9 +61,9 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 #### Public ALB DNS
 
-Paste your public ALB DNS name here:
+Book-Review-Web-ALB
 
-`Add your URL here`
+Book-Review-Web-ALB-1626427701.us-east-1.elb.amazonaws.com
 
 ---
 
@@ -70,37 +77,37 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![Web EC2](screenshots/Wk-06-Ass-6-scrn-1.png)
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![App EC2](screenshots/Wk-06-Ass-6-scrn-2.png)
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![Public ALB](screenshots/Wk-06-Ass-6-scrn-public-ALB.png)
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![Internal ALB](screenshots/Wk-06-Ass-6-scrn-4.png)
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+![RDS + Replica](screenshots/Wk-06-Ass-6-RDS-Replica.png)
 
 ---
 
 #### App UI proof
 
-Add your screenshot here.
+![App UI proof](screenshots/Wk-06-Ass-6-scrn-1.png)
 
 ---
 
@@ -114,19 +121,36 @@ Summarize what worked in the final deployment, the issues encountered and how ea
 
 **What worked:**
 
-Write your answer here.
+The Book Review App was deployed using a production-style three-tier AWS architecture consisting of a public Web Tier, private App Tier, and private Database Tier. The Web Tier runs the Next.js frontend behind Nginx and a public Application Load Balancer, while the App Tier runs the Node.js/Express backend behind an internal Application Load Balancer. The Database Tier uses Amazon RDS for MySQL in private subnets with Multi-AZ and a read replica.
 
 ---
 
 **Issues + fixes:**
 
-Write your answer here.
+MySQL SSL connection failed with SSL_CTX_set_default_verify_paths failed. The RDS CA certificate file global-bundle.pem was missing. It was downloaded from the AWS RDS trust store and supplied with --ssl-ca. The database connection then succeeded using SSL.
+
+The assignment documentation contained different backend port references. The detailed technical requirements specified port 3001, so the Node.js backend, internal ALB target group, and App Tier Security Group were configured consistently to use port 3001.
+
+Nginx was configured to serve the Next.js application on the Web Tier and provide the required HTTP endpoint for the public ALB. Nginx configuration and application availability were checked when validating access through the public ALB.
 
 ---
 
 **Tools/sources used:**
 
-Write your answer here.
+AWS Management Console
+Amazon VPC documentation
+Amazon EC2 documentation
+Elastic Load Balancing documentation
+Amazon RDS documentation
+AWS Security Groups documentation
+ChatGPT
+Google Search
+Developer forums and troubleshooting resources
+Ubuntu/Linux terminal
+Nginx
+Node.js/Express
+Next.js
+MySQL
 
 ---
 
@@ -140,15 +164,10 @@ Publish a LinkedIn post sharing the capstone deployment, including the public AL
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
-
-`Add your URL here`
+https://lnkd.in/p/eRz4GxBr
 
 ---
 
-#### Screenshot of LinkedIn post
-
-Add your screenshot here.
 
 ---
 
