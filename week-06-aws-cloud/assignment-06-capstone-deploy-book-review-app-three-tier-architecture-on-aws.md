@@ -107,7 +107,7 @@ Capture visual proof of every tier and load balancer.
 
 #### App UI proof
 
-![App UI proof](screenshots/Wk-06-Ass-6-scrn-1.png)
+![App UI proof](screenshots/Wk-06-Ass-6-App-UI.png)
 
 ---
 
