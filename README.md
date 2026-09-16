@@ -138,8 +138,8 @@ Week 01 → Success Mindset
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week5strongandbetter-devops-jira-share-7492935760875261952-r6NM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-5-stronger-and-better-cc4a5ab156ca?sharedUserId=engineerageless |
 | 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week06wasallaboutaws-aws-devops-share-7494981419924967424-hjpU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-06-was-all-about-aws-719e8ad1df40?sharedUserId=engineerageless |
 | 07 | Azure Cloud | 🔄 In Progress | ⏳ Pending | https://www.linkedin.com/posts/evangeline-obeta-067089193_azure-aws-devops-share-7496662432485085184-KRYy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/microsoft-azure-finally-week-07-2f9115b7a3b2?sharedUserId=engineerageless |
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
+| 08 | Terraform | ✅ Completed | ✅ Solved | https://lnkd.in/p/ei6kKxUV | https://medium.com/@engineerageless/week-8-has-been-all-about-turning-cloud-concepts-into-practical-infrastructure-35c93f340ee6?sharedUserId=engineerageless |
+| 09 | Ansible | ✅ Completed | ✅ Solved | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
 | 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
