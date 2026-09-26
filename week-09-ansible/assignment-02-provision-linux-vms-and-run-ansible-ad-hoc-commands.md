@@ -24,19 +24,19 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+![the complete `ansible-adhoc-lab`](screenshots/Wk-09-Ass-2-scrn-1.png)
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+![showing `git status --short`](screenshots/Wk-09-Ass-2-scrn-2.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I created the `ansible-adhoc-lab` project structure inside the existing Git repository. The project contains separate Terraform and Ansible directories, documentation files, and a screenshots directory. I also updated `.gitignore` to prevent sensitive files such as Terraform state files, private SSH keys, and local environment files from being committed. I verified the structure with the terminal and confirmed the new files with `git status --short`.
 
 ---
 
@@ -57,25 +57,26 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+![showing the three or four server roles](screenshots/Wk-09-Ass-2-scrn-3.png)
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+![Terraform configuration showing SSH restricted](screenshots/Wk-09-Ass-2-scrn-4.png)
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+![public IP addresses are associated with the server roles](screenshots/Wk-09-Ass-2-scrn-5.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I created the Terraform configuration for the selected cloud platform and defined the server roles using a Terraform `for_each` implementation. The configuration creates separate role-based servers for the web, app, and database tiers. I also configured SSH access to be restricted to the controller IP address and allowed HTTP access only where it was required for the web hosts. Terraform outputs were configured to associate each server role with its public IP address.
+I used Microsoft Azure and the `azurerm` Terraform provider. The final working VM size was `Standard_F1ams_v7` in the `West US 2` region. I configured the infrastructure to create the role-based Ubuntu servers and used Terraform iteration so that the repeated VM resources did not need to be written manually several times.
 
 ---
 
@@ -89,25 +90,26 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+![Final `terraform apply` output](screenshots/Wk-09-Ass-2-scrn-6.png)
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+![`terraform output public_ips`](screenshots/Wk-09-Ass-2-scrn-7.png)
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+![Azure Portal showing all three VMs](screenshots/Wk-09-Ass-2-scrn-8.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I initialized and validated the Terraform configuration before provisioning the infrastructure. I reviewed the Terraform plan, confirmed that the expected role-based resources would be created, and then ran `terraform apply`. The apply completed successfully, and I used `terraform output public_ips` to retrieve the public IP address associated with each server role. I also confirmed in the Azure Portal that the VMs were running.
+I initially encountered VM-size availability issues while testing Azure SKUs. I resolved the issue by checking the sizes available to my subscription and using the working `Standard_F1ams_v7` size in `West US 2`. This allowed Terraform to provision the infrastructure successfully.
 
 ---
 
@@ -121,13 +123,13 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+![Terminal showing successful SSH hostname](screenshots/Wk-09-Ass-2-scrn-9.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I verified SSH key-based access from the Ansible controller to each managed VM. I used the correct SSH username, public IP address, and private key for each connection. Each SSH command returned the hostname successfully without requesting a password, confirming that key-based authentication was working.
 
 ---
 
@@ -143,19 +145,19 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+![`inventory.ini`](screenshots/Wk-09-Ass-2-scrn-10.png)
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+![Output of `ansible-inventory -i](screenshots/Wk-09-Ass-2-scrn-11.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I created a custom Ansible inventory and grouped the managed servers by role using the `web`, `app`, and `db` groups. I added the connection details required by Ansible, including the SSH username, private-key path, and server addresses. I verified the inventory structure with `ansible-inventory -i inventory.ini --graph`.
 
 ---
 
@@ -171,43 +173,44 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+![Output of `ansible all -i inventory.ini -m ping`](screenshots/Wk-09-Ass-2-scrn-12.png)
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+![Output of `ansible all -i inventory.in](screenshots/Wk-09-Ass-2-scrn-13.png)
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![Output of `ansible web -i inventory.ini](screenshots/Wk-09-Ass-2-scrn-14.png)
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+![Output of `ansible web -i inventory.ini](screenshots/Wk-09-Ass-2-scrn-15.png)
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+![Output of `ansible all -i inventory.ini](screenshots/Wk-09-Ass-2-scrn-16.png)
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+!["systemctl is-active nginx"`](screenshots/Wk-09-Ass-2-scrn-17.png)
 
 ---
 
 ### Notes
 
-Add your task notes here.
+I used Ansible ad-hoc commands to verify connectivity and manage the servers without creating a playbook. The ping command returned `pong` for all hosts, confirming Ansible connectivity. I also checked uptime across the inventory, installed Nginx on the web group, started and enabled the Nginx service, installed `htop` on all hosts, and verified that Nginx was active.
+The final Nginx verification returned `active` on the web host. The `htop` installation returned `SUCCESS` for all hosts, and `changed: false` indicated that the desired package state was already satisfied.
 
 ---
 
@@ -217,15 +220,13 @@ Add your task notes here.
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
 
-`Add your URL here`
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
@@ -235,37 +236,37 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+An Ansible inventory file tells Ansible which managed servers it should connect to. It can also group servers by role, such as web, app, and db, and define connection details such as the username, IP address, and SSH key.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+The groups represent different server roles. The web group contains servers that provide web services such as Nginx. The app group contains application servers, while the db group contains database servers. Grouping hosts allows Ansible commands to target only the servers that need a particular task.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module verifies that Ansible can connect to a managed host and execute Python-based Ansible modules on it. A successful result returns `pong`.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+Package installation changes system-level files and uses administrative privileges. The `--become` option allows Ansible to use privilege escalation, normally through sudo, so the package can be installed by the root user.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+I would use an ad-hoc command for a quick one-time task, such as checking uptime, testing connectivity, or installing a package on a small number of hosts. I would use a playbook for repeatable, multi-step, documented automation that needs to be maintained or run again.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+One challenge I faced was connecting to the correct servers after creating the infrastructure. I also encountered Azure VM-size availability issues and initially ran `terraform destroy` from the wrong directory. I fixed the infrastructure issue by checking the available Azure SKU and using the working `Standard_F1ams_v7` size in `polandcentral`. I fixed the Terraform directory issue by locating the directory containing the correct Terraform configuration and state before running Terraform commands.
 
 ---
 
