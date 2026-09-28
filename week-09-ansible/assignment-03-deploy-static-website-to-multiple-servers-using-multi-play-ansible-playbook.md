@@ -45,4 +45,10 @@ Add both Ubuntu servers to the Ansible inventory.
 Copy and paste the complete contents of your `inventory.ini` file below:
 
 ```ini
-Add your inventory.ini content here.
+#[web]
+# web1 ansible_host=20.230.234.136
+# web2 ansible_host=20.125.18.121
+
+# [web:vars]
+# ansible_user=azureuser
+# ansible_ssh_private_key_file=/home/evangeline/.ssh/id_ed25519
