@@ -1,27 +1,14 @@
 # Week 01 — Success Mindset (Mindset OS)
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Task 1 — A Belief You Hold
 
-This week is not motivation homework.
+### Question
 
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
-
-### Expectations
-
-* Be honest.
-* Be specific.
-* Be practical.
-* Write like an adult professional: clear sentences, no one-liners.
-
-You will reuse this in later weeks. So do it properly once.
-
----
-
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
+What is something you believe to be true that most people around you would disagree with?
 
 ### Rules
 
@@ -87,55 +74,48 @@ I was recently faced with the most difficult part of my life - losing my dad. I 
 
 ---
 
-# Assignment 3. What does your 2.0 version look like?
+## Task 3 — What Does Your 2.0 Version Look Like?
 
-### Instructions
+Write and publicly publish an article about your future professional self, written as if a journalist is writing about you **3–7 years from now**.
 
-Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
+Your article must:
 
-**Minimum 300 words.**
+* Be at least **300 words**.
+* Be written in the **past tense**, as if it has already happened.
+* Include specific proof such as projects, portfolio, GitHub, blogs, certifications, job role, leadership, or community contribution.
+* Be published on LinkedIn, Medium, WordPress, Blogspot, a personal blog, or a portfolio page.
 
-### Rules
+### My Article
 
-* Write in past tense, like it already happened.
-* Don't use "likes to / wants to / hopes to."
-* Use specifics:
+Paste your complete article here...
 
-  * built
-  * shipped
-  * led
-  * published
-  * earned
-  * relocated
-  * contributed
-* Include skills proof:
+### Public Article URL
 
-  * projects
-  * portfolios
-  * GitHub
-  * blogs
-  * certifications
-  * job role
-  * leadership
-  * community contribution
-* Add 1–3 images if you can (optional but powerful).
+```text
+Paste your published article URL here...
+```
 
-### Publish It Publicly On Any ONE
+### LinkedIn Post URL
 
-* LinkedIn
-* Medium
-* WordPress
-* Blogspot
-* Personal blog
-* Portfolio page
+Create a LinkedIn post sharing your published article, then add the URL below.
 
-Use the credit note that matches your track:
+```text
+Paste your LinkedIn post URL here...
+```
 
-Add the following credit note at the end of your post **(If you are DMI Cohort 3 student)**:
+### Credit Note — DMI Self-Paced Engineer Track Students
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
-Add the following credit note at the end of your post **(If you are DMI Self-paced track student)**:
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced
+
+`#DMIByPravinMishra`
+
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.
+
+### Credit Note — DMI Campus Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
 
 > **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
 
@@ -333,7 +313,7 @@ Monday to Thursday, 5:00 PM to 8:00 PM.
 
 Saturday, 5:00 AM to 2:00 PM.
 
-#### How Many Sessions Per Week?
+#### How Many DMI Work Sessions Will I Complete Each Week?
 
 5 sessions per week
 
@@ -361,17 +341,17 @@ I protect my time by planning ahead so family, work, and learning do not clash.
 
 ---
 
-# Reflection – Week 1
+## Task 8 — Week 1 Reflection and Proof of Work
 
-### Biggest insight I got about myself this week
+### Biggest Insight I Got About Myself This Week
 
 I am committed when I put my mind to it
 
-### My biggest weakness/loop I noticed
+### My Biggest Weakness or Loop I Noticed
 
 I haven't noticed any loop, I am pumped up and ready to crush.
 
-### One system I will implement from this week (exact habit + time)
+### One System I Will Implement From This Week (Exact Habit and Time)
 
 Take my 2 hours deep session seriously
 Sleep well, because if I am sleep-starved, I won't function well
@@ -429,4 +409,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track*

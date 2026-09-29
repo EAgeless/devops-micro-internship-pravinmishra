@@ -4,7 +4,7 @@
 
 ## 1. Assignment Overview
 
-**Assignment:** Setup & Agentic Loop     
+**Assignment:** Your First Agentic Session     
 **Estimated Time:** 60 minutes     
 **Difficulty:** Beginner      
 **Category:** Agentic AI, Claude Code Setup     
@@ -13,7 +13,7 @@
 
 ## 2. Objective
 
-Install and authenticate Claude Code CLI and VS Code extension, fork and clone the course starter [repository](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code), and observe how the Agentic Loop works before any configuration is in place.
+Install and authenticate Claude Code CLI, fork and clone the course starter [repository](https://github.com/pravinmishraaws/Ultimate-Agentic-DevOps-with-Claude-Code), and observe how the Agentic Loop works before any configuration is in place.
 
 ---
 
@@ -49,8 +49,8 @@ Every DevOps engineer working with agentic AI starts the same way — setting up
 - Node.js and npm installed (`node --version` works)
 - Git installed and configured (Verify using `git --version`)
 - GitHub account
-- VS Code installed (Vrify using `code --version`)
-- Claude subscription (Pro plan minimum)
+- VS Code installed (Verify using `code --version`)
+- Claude subscription 
 
 ---
 
@@ -127,8 +127,8 @@ How many lines of CSS does this project have?
 ```
 
 **Expected Output:**
-- Question 1: Claude lists the files and describes each one, showing it read them first
-- Question 2: Claude runs a command like `wc -l style.css` and reports the exact number
+- Claude lists the files and describes each one, showing it read them first
+- Claude runs a command like `wc -l style.css` and reports the exact number
 
 **Screenshots Required:**
 - Screenshot 4 — Claude's response to the first question, showing it read the files (tool calls visible)
@@ -138,36 +138,37 @@ How many lines of CSS does this project have?
 
 ### Task 4 — Share Your First Agentic AI Achievement
 
-**Goal:** Celebrate your first Agentic AI milestone and share your learning progress with your professional network.
+**Goal:** Celebrate your first Agentic AI session and share your learning progress with your professional network.
+
+Great work—you have successfully completed your first Agentic AI session! You installed Claude Code, explored a real project, and observed the **Gather → Act → Verify** Agentic Loop in action.
+
+Now, share this achievement on LinkedIn.
 
 **Steps:**
 
 1. Go to the **DMI Leaderboard**.
-2. Find your name.
-3. Select **Share your progress**.
+2. Find your name on the leaderboard.
+3. You can see the **Share your progress** section under your name.
 4. Click the **LinkedIn icon**.
-5. LinkedIn will open with your automatically generated leaderboard progress link.
-6. Copy and paste the post content provided below.
-7. Keep the automatically generated leaderboard link in your post.
-8. Review and publish your post.
+5. Share your progress using the caption below. Make sure the DMI Leaderboard link or achievement card is included in your post.
 
-**LinkedIn Post Content:**
+**LinkedIn Caption:**
 
-```text
-I’ve completed my first Agentic AI session! 🚀
+I’ve completed my first Agentic AI session as part of DMI! 🚀
 
-I installed and authenticated Claude Code, explored a real project, and observed the Agentic Loop—Gather, Act, and Verify—in action.
+I installed and authenticated Claude Code, explored a real project, and observed the Agentic Loop - Gather, Act, and Verify in action.
 
 This is my first step toward using Agentic AI in real-world DevOps workflows.
 
-You can view my learning progress on the DMI Leaderboard using the link below.
+You can view my learning progress on the DMI Leaderboard.
 
-#AgenticAI #ClaudeCode #DevOps #DMI #ContinuousLearning
-```
+#DMIByPravinMishra #AgenticAI #ClaudeCode
 
-**Expected Output:** A published LinkedIn post describing your first Agentic AI session and containing your automatically generated DMI Leaderboard progress link.
+**Expected Output:** A published LinkedIn post sharing your achievement and DMI Leaderboard progress.
 
-**Evidence Required:** No additional screenshot is required for this task.
+**Screenshot Required:**
+
+* Screenshot 6 — Your published LinkedIn post showing the caption and shared leaderboard progress
 
 ---
 
@@ -182,7 +183,7 @@ In professional agentic DevOps teams, engineers do not use Claude Code blind. Be
 Complete all tasks in sequence.
 
 Your submission must include:
-- All 5 required screenshots
+- All 6 required screenshots
 - Your GitHub forked repository URL
 
 ---
@@ -211,7 +212,7 @@ Before submission, verify:
 - [ ] Claude Code CLI installed and `claude --version` works
 - [ ] Claude Code authenticated — opens without asking for login again
 - [ ] Starter repo forked and cloned
-- [ ] All 5 screenshots captured and added to your GitHub Repository file
+- [ ] All 6 screenshots captured and added to your GitHub Repository file
 - [ ] GitHub repo URL included
 - [ ] First Agentic AI achievement shared on LinkedIn using the provided content
 

@@ -1,6 +1,6 @@
 # Assignment 3 — Deploy a React Application on Azure Using Terraform
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -218,8 +218,8 @@ A screenshot of the terminal showing successful `terraform destroy` completion.
 
 # Submission Instructions
 
-- Complete Tasks 0–6 in sequence.
-- Include all 15 required screenshots exactly as specified.
+- Complete Tasks 0–7 in sequence.
+- Include all 16 required screenshots exactly as specified.
 - Ensure that your full name is visible in the required screenshots.
 - Record the VM public IP address under Task 3.
 - Ensure that the submitted evidence clearly matches the required task outputs.
@@ -260,7 +260,8 @@ A screenshot of the terminal showing successful `terraform destroy` completion.
 - [ ] Verified that Nginx is running
 - [ ] Verified the React application through the browser
 - [ ] Completed `terraform destroy` successfully
-- [ ] Captured all 15 required screenshots
+- [ ] Shared the React application deployment progress on LinkedIn by following Task 7
+- [ ] Captured all 16 required screenshots
 - [ ] Confirmed that my full name is visible in the required screenshots
 - [ ] Checked that no passwords, keys, account IDs, access tokens, or other sensitive information are exposed
 
