@@ -37,7 +37,7 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+![Imported React Project in Azure Repos](screenshots/Wk-10-Ass-3-scrn-1.png)
 
 ---
 
@@ -81,7 +81,7 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+![Multi-Stage Pipeline YAML](screenshots/Wk-10-Ass-3-scrn-2.png)
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +104,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+![Successful Multi-Stage Pipeline Run](screenshots/Wk-10-Ass-3-scrn-3.png)
 
 ---
 
@@ -122,7 +122,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+![Post-Deployment Contents of /var/www/html](screenshots/Wk-10-Ass-3-scrn-4.png)
 
 ---
 
@@ -143,7 +143,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Deployment date
 
-Add your screenshot here.
+![Deployed React Application](screenshots/Wk-10-Ass-3-scrn-5.png)
 
 ## Final Application URL
 
@@ -151,7 +151,7 @@ Add your screenshot here.
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+[http://18.234.166.110]
 
 ---
 
@@ -159,7 +159,7 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+I created a CI/CD workflow using Azure Repos and Azure Pipelines to automate the testing, building, and deployment of my React application. Each commit to the main branch triggers the pipeline, which runs on a self-hosted agent installed on an Ubuntu EC2 instance provisioned with Terraform. The pipeline sets up Node.js, installs dependencies, runs automated tests, and generates a production build. It then copies the build files over SSH to /var/www/html, validates the Nginx configuration, and reloads Nginx to serve the updated application. This workflow ensures that application changes are tested before deployment and reduces manual deployment work.
 
 ---
 
@@ -174,11 +174,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![LinkedIn Post](screenshots/Wk-10-Lnkd-post.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+[https://lnkd.in/p/deZP8mgJ]
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 

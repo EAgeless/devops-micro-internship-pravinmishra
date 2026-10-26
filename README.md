@@ -137,11 +137,11 @@ Week 01 → Success Mindset
 | 04 | Git & GitHub | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_devops-git-github-share-7486433961859219456-0Rzd/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-4-of-the-devops-micro-internship-stretched-me-in-the-best-way-77e7f9456e01?sharedUserId=engineerageless |
 | 05 | DevOps Lifecycle & Agile | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week5strongandbetter-devops-jira-share-7492935760875261952-r6NM/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-5-stronger-and-better-cc4a5ab156ca?sharedUserId=engineerageless |
 | 06 | AWS Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_week06wasallaboutaws-aws-devops-share-7494981419924967424-hjpU/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/week-06-was-all-about-aws-719e8ad1df40?sharedUserId=engineerageless |
-| 07 | Azure Cloud | 🔄 In Progress | ⏳ Pending | https://www.linkedin.com/posts/evangeline-obeta-067089193_azure-aws-devops-share-7496662432485085184-KRYy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/microsoft-azure-finally-week-07-2f9115b7a3b2?sharedUserId=engineerageless |
+| 07 | Azure Cloud | ✅ Completed | ✅ Solved | https://www.linkedin.com/posts/evangeline-obeta-067089193_azure-aws-devops-share-7496662432485085184-KRYy/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC1lNQ8BKNctpF5K7KkXcW9PlnRd3JAwP3E | https://medium.com/@engineerageless/microsoft-azure-finally-week-07-2f9115b7a3b2?sharedUserId=engineerageless |
 | 08 | Terraform | ✅ Completed | ✅ Solved | https://lnkd.in/p/d4yr9yaU | https://medium.com/@engineerageless/week-8-has-been-all-about-turning-cloud-concepts-into-practical-infrastructure-35c93f340ee6?sharedUserId=engineerageless |
 | 09 | Ansible | ✅ Completed | ✅ Solved | https://lnkd.in/p/dBrhd5Bi | https://medium.com/@engineerageless/ansible-finally-2d09dc8d692f |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
+| 10 | Azure DevOps (CI/CD) | 🔄 In Progres | ⏳ Pending | https://lnkd.in/p/deZP8mgJ | https://medium.com/@engineerageless/-b67cee643f37 |
+| 11 | Docker | 🔄 In Progres | ⏳ Pending | — | — |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 

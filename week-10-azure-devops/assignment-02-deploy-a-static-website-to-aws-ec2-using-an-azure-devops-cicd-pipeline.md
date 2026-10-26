@@ -36,7 +36,7 @@ Add a screenshot of Azure Repos showing:
 * Project files
 * `index.html`
 
-Add your screenshot here.
+![Azure Static Website in Azure Repos](screenshots/Wk-10-Ass-2-scrn-1.png)
 
 ---
 
@@ -65,7 +65,7 @@ Add a screenshot of the saved SSH Service Connection **Overview** page showing:
 * Service Connection name
 * SSH connection type
 
-Add your screenshot here.
+![SSH Service Connection](screenshots/Wk-10-Ass-2-scrn-2.png)
 
 > Do not expose a password, SSH private key, passphrase, or another credential.
 
@@ -91,7 +91,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * `CopyFilesOverSSH@0` task
 * `SSH@0` verification task
 
-Add your screenshot here.
+![Azure Pipelines YAML](screenshots/Wk-10-Ass-2-scrn-3.png)
 
 > Ensure that no password, SSH private key, PAT, or AWS credential is visible.
 
@@ -115,7 +115,7 @@ Add a screenshot of the successful pipeline run and log summary showing:
 * Remote-verification step completed
 * Your Full Name visible in the pipeline output
 
-Add your screenshot here.
+![Successful Pipeline Run](screenshots/Wk-10-Ass-2-scrn-4.png)
 
 ---
 
@@ -136,7 +136,7 @@ Add a browser screenshot showing:
 * Your Full Name
 * Updated website content after the automatic deployment
 
-Add your screenshot here.
+![eployed Azure Static Website](screenshots/Wk-10-Ass-2-scrn-5.png)
 
 ## Final Website URL
 
@@ -144,7 +144,7 @@ Add your screenshot here.
 
 Replace the placeholder with your actual website URL:
 
-[Paste your final website URL here]
+[http://34.238.121.223]
 
 ---
 
@@ -152,7 +152,7 @@ Replace the placeholder with your actual website URL:
 
 Write a short summary of the completed CI/CD workflow.
 
-[Write your summary here.]
+In this Assignment, I deployed a personalized static website to AWS EC2 using an Azure DevOps CI/CD pipeline. I used Terraform to provision the infrastructure, Ansible to configure Nginx and deployment permissions, and an SSH private-key service connection to transfer and verify the website files. The pipeline ran successfully using my self-hosted agent, and I destroyed the lab infrastructure afterward.
 
 ---
 
@@ -167,11 +167,11 @@ Add a screenshot of your LinkedIn post containing:
 * Three to five lines describing the CI/CD workflow
 * A screenshot of the successful pipeline or deployed website
 
-Add your screenshot here.
+![LinkedIn Post](screenshots/Wk-10-Lnkd-post.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here]
+[https://lnkd.in/p/deZP8mgJ]
 
 > Do not expose AWS credentials, SSH private keys, passwords, PATs, or other sensitive information.
 

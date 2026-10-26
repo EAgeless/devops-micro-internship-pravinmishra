@@ -58,7 +58,7 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
+![Ubuntu VM Running](screenshots/Wk-10-Ass-1-scrn-1.png)
 
 ---
 
@@ -72,7 +72,7 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
+![Ubuntu, Architecture, and HTTPS Verification](screenshots/Wk-10-Ass-1-scrn-2.png)
 
 ---
 
@@ -93,7 +93,7 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+![Agent Configuration and Service Status](screenshots/Wk-10-Ass-1-scrn-3.png)
 
 > Ensure that the PAT is not visible.
 
@@ -116,7 +116,7 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+![Agent Online in Azure DevOps](screenshots/Wk-10-Ass-1-scrn-4.png)
 
 ---
 
@@ -138,7 +138,7 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+![Azure Pipelines YAML](screenshots/Wk-10-Ass-1-scrn-5.png)
 
 ---
 
@@ -156,7 +156,7 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+![Successful Test Pipeline](screenshots/Wk-10-Ass-1-scrn-6.png)
 
 ---
 
@@ -165,7 +165,90 @@ Add your screenshot here.
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+trigger:
+  branches:
+    include:
+      - '*'
+
+pool:
+  name: SelfHostedPool
+
+variables:
+  sshServiceConnection: 'azure-static-website-ssh'
+  deploymentPath: '/var/www/html'
+
+steps:
+  - checkout: self
+    clean: true
+
+  - bash: |
+      set -euo pipefail
+
+      echo "Deployed by: Evangeline Obeta"
+      echo "Branch: $SOURCE_BRANCH"
+      echo "Commit: $SOURCE_COMMIT"
+      echo "Agent: $PIPELINE_AGENT"
+
+      echo "Website files prepared for deployment:"
+      find . -type f \
+        ! -path './.git/*' \
+        ! -name 'azure-pipelines.yml' \
+        ! -name 'README.md' \
+        -print
+
+      test -f index.html
+    displayName: 'Show deployment information'
+    workingDirectory: '$(Build.SourcesDirectory)'
+    env:
+      SOURCE_BRANCH: $(Build.SourceBranch)
+      SOURCE_COMMIT: $(Build.SourceVersion)
+      PIPELINE_AGENT: $(Agent.Name)
+
+  - task: CopyFilesOverSSH@0
+    displayName: 'Copy website to EC2'
+    inputs:
+      sshEndpoint: '$(sshServiceConnection)'
+      sourceFolder: '$(Build.SourcesDirectory)'
+      contents: |
+        **
+        !.git/**
+        !**/.git/**
+        !azure-pipelines.yml
+        !README.md
+      targetFolder: '$(deploymentPath)'
+      cleanTargetFolder: true
+      overwrite: true
+      failOnEmptySource: true
+      readyTimeout: '60000'
+
+  - task: SSH@0
+    displayName: 'Verify website deployment'
+    inputs:
+      sshEndpoint: '$(sshServiceConnection)'
+      runOptions: 'inline'
+      interpreterCommand: '/bin/bash'
+      inline: |
+        set -euo pipefail
+
+        cd "$(deploymentPath)"
+
+        echo "Deployed website files:"
+        ls -la
+
+        test -s index.html
+        grep -Fq 'Evangeline Obeta' index.html
+
+        curl --fail --silent --show-error \
+          --max-time 30 \
+          http://127.0.0.1/ \
+          -o /tmp/azure-static-website-response.html
+
+        grep -Fq 'Evangeline Obeta' \
+          /tmp/azure-static-website-response.html
+
+        echo "Deployment checks passed — Evangeline Obeta"
+      failOnStdErr: false
+      readyTimeout: '60000'
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,7 +259,7 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+In Assignment 1, I configured an Ubuntu-based self-hosted agent for Azure DevOps, connected it to my organization, and verified that it was online and ready to run pipeline jobs. This created the foundation for the automated website deployment in Assignment 2.
 
 ---
 
@@ -191,9 +274,9 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
+![LinkedIn post](screenshots/Wk-10-Lnkd-post.png)
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+**LinkedIn Post URL:** [https://lnkd.in/p/deZP8mgJ]
 
 ---
 
