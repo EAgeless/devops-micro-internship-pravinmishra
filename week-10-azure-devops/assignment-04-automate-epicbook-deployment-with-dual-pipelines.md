@@ -188,7 +188,9 @@ https://github.com/EAgeless/infra-epicbook.git
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+I used separate Infrastructure and Application repositories to establish a clear separation of responsibilities. The Infrastructure Repository contained the Terraform configuration for provisioning Azure resources, while the Application Repository contained the Ansible roles, application configuration, inventory, and Azure DevOps deployment pipeline.
+
+This allowed infrastructure changes and application deployments to be reviewed and managed independently. I could deploy application updates without unnecessarily modifying the underlying infrastructure, while keeping each repository focused on its own lifecycle.
 
 ---
 
@@ -201,7 +203,17 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+The handoff was a deliberate, manual transfer of non-sensitive infrastructure connection details into the Application Repository’s Ansible inventory and variables:
+
+    app_public_ip: The public application endpoint, used for browser access and deployment verification.
+
+    backend_ansible_host: The address Ansible used to connect to the backend VM.
+
+    backend_private_ip: The backend’s internal address, used where private-network connectivity was available.
+
+    mysql_fqdn: The Azure MySQL server hostname, used in the application’s database configuration and Ansible database-import tasks.
+
+During troubleshooting, the local Terraform state returned no outputs, so I verified the required addresses through Azure CLI rather than relying on missing state values. The backend’s private address was 10.60.2.4, but the agent could not reach it over the private network. I therefore used the backend’s public address, 20.109.178.204, as the Ansible connection target and verified agent-to-backend SSH access.
 
 ---
 
@@ -216,11 +228,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+![LinkedIn Post](screenshots/Wk-10-Ass-4-Lnked.png)
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+https://lnkd.in/p/dHbXks7a
 
 Your post must include:
 
