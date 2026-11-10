@@ -28,7 +28,9 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
-Add your screenshot here.
+![Cloud VM Overview](screenshots/Wk-11-Ass-1-scrn-1.png)
+
+![Cloud VM Overview](screenshots/Wk-11-Ass-1-scrn-1b.png)
 
 ---
 
@@ -50,7 +52,9 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
-Add your screenshot here.
+![Cloud-Init Docker Installation Log](screenshots/Wk-11-Ass-1-scrn-2.png)
+
+![Cloud-Init Docker Installation Log](screenshots/Wk-11-Ass-1-scrn-2b.png)
 
 ---
 
@@ -76,7 +80,7 @@ and
 docker ps
 ```
 
-Add your screenshot here.
+![Docker Version and Running Docker Daemon](screenshots/Wk-11-Ass-1-scrn-3.png)
 
 ---
 
@@ -92,7 +96,7 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
-Add your screenshot here.
+![Application Project Files](screenshots/Wk-11-Ass-1-scrn-4.jpeg)
 
 ---
 
@@ -114,7 +118,7 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
-Add your screenshot here.
+![Dockerfile Contents](screenshots/Wk-11-Ass-1-scrn-5.jpeg)
 
 ---
 
@@ -136,7 +140,7 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
-Add your screenshot here.
+![Docker Image Verification](screenshots/Wk-11-Ass-1-scrn-6.jpeg)
 
 ---
 
@@ -162,7 +166,7 @@ The output must show the running `static-site` container with the port mapping:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![Running Docker Container](screenshots/Wk-11-Ass-1-scrn-7.jpeg)
 
 ---
 
@@ -182,7 +186,7 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
-Add your screenshot here.
+![VM Public IP Address](screenshots/Wk-11-Ass-1-scrn-8.jpeg)
 
 ---
 
@@ -192,13 +196,13 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
-Add your screenshot here.
+![Deployed Static Website](screenshots/Wk-11-Ass-1-scrn-9.jpeg)
 
 ---
 
 # Public Application URL
 
-**VM Public IP / Application URL:** `Add your application URL here`
+**VM Public IP / Application URL:** http://20.98.86.137
 
 ---
 
@@ -210,11 +214,11 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn Post URL here`
+**LinkedIn Post URL:** https://lnkd.in/p/dgj8Z7Y2
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
+![LinkedIn Post](screenshots/Wk-11-Lnkdn.jpeg)
 
 ---
 
