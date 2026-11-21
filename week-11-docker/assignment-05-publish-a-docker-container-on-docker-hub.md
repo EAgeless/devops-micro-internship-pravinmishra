@@ -26,7 +26,7 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+![Public Docker Hub Repository](screenshots/Wk-11-Ass-5-scrn-1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+![Successful Docker Login](screenshots/Wk-11-Ass-5-scrn-2.png)
 
 ---
 
@@ -54,7 +54,7 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+![Correctly Tagged Image](screenshots/Wk-11-Ass-5-scrn-3.png)
 
 ---
 
@@ -68,7 +68,7 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+![Successful Docker Push](screenshots/Wk-11-Ass-5-scrn-4.png)
 
 ---
 
@@ -76,7 +76,7 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+![Published `latest` Tag in Docker Hub](screenshots/Wk-11-Ass-5-scrn-5.png)
 
 ---
 
@@ -88,7 +88,7 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+![Local Image Removed and Pulled Again](screenshots/Wk-11-Ass-5-scrn-6.png)
 
 ---
 
@@ -106,7 +106,7 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![Running Pulled Image](screenshots/Wk-11-Ass-5-scrn-7.jpeg)
 
 ---
 
@@ -115,18 +115,18 @@ Add your screenshot here.
 Add a browser screenshot showing the React application at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://20.3.152.219
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![React Application in Browser](screenshots/Wk-11-Ass-5-scrn-8.jpeg)
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** https://github.com/EAgeless/book-review-app.git
 
 ---
 
@@ -138,7 +138,19 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+Image tagging is required before pushing to Docker Hub because a tag identifies the Docker Hub namespace, repository, and version of the image being uploaded. For example, agelesseva/my-react-app:latest identifies the Docker Hub username, repository name, and image tag. Docker uses this information to determine where the image should be stored when docker push is run. Without the correct tag, Docker would not know which repository the image belongs to.
+
+A tag is a human-readable label that points to a specific image version or variant. If no tag is provided, Docker uses latest by default. Tags allow multiple versions of an image to be stored and managed within one Docker Hub repository.
+
+A container registry is useful in DevOps workflows because it provides a central location to store, share, and distribute container images. After an image is built and tested, it can be pushed to a registry such as Docker Hub and later pulled into development, staging, or production environments. This ensures that teams deploy the same tested image rather than rebuilding it separately on every server.
+
+Registries also support automation in CI/CD pipelines. A pipeline can build an image, tag it, push it to a registry, and then deploy that exact image to the next environment. This makes deployments more repeatable, traceable, and consistent across teams and infrastructure.
+
+Production deployments should use versioned image tags instead of relying only on latest because latest is mutable. A publisher can update the latest tag to point to a newer image, meaning that a deployment using latest may receive a different version without anyone explicitly changing the deployment configuration.
+
+Versioned tags such as 1.0, 1.2.3, or a release-specific tag make it clear exactly which image is running in production. They also make rollbacks easier: if a new release causes an issue, the team can redeploy a previously tested version instead of guessing which image latest currently represents.
+
+For example, using agelesseva/my-react-app:1.0 in production is safer than using agelesseva/my-react-app:latest because the versioned tag identifies a known, tested release. A good practice is to tag each release with a specific version and optionally update latest as a convenience pointer, while production deployments reference the fixed version tag
 
 ---
 
@@ -160,15 +172,14 @@ Include:
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://lnkd.in/p/dgj8Z7Y2
 
-`Add your URL here`
+
 
 ---
 
 #### LinkedIn Post Screenshot
 
-Add a screenshot of the published LinkedIn post here.
 
 ---
 
