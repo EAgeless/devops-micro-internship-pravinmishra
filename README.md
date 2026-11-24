@@ -141,7 +141,7 @@ Week 01 → Success Mindset
 | 08 | Terraform | ✅ Completed | ✅ Solved | https://lnkd.in/p/d4yr9yaU | https://medium.com/@engineerageless/week-8-has-been-all-about-turning-cloud-concepts-into-practical-infrastructure-35c93f340ee6?sharedUserId=engineerageless |
 | 09 | Ansible | ✅ Completed | ✅ Solved | https://lnkd.in/p/dBrhd5Bi | https://medium.com/@engineerageless/ansible-finally-2d09dc8d692f |
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Solved | https://lnkd.in/p/deZP8mgJ | https://medium.com/@engineerageless/-b67cee643f37 |
-| 11 | Docker | ✅ Completed | ✅ Solved | https://lnkd.in/p/dgj8Z7Y2 | — |
+| 11 | Docker | ✅ Completed | ✅ Solved | https://lnkd.in/p/dgj8Z7Y2 | https://medium.com/@engineerageless/from-containers-to-the-cloud-my-docker-learning-journey-2a9ac38ced52 |
 | 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
 | 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
 
